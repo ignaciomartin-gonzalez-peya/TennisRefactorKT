@@ -54,7 +54,7 @@ class Tennis(player1Name: String, player2Name : String) : TennisInt {
     }
 
     private fun concatScores(str1: String, str2: String): String {
-        return "$str1 - $str2"
+        return "$str1-$str2"
     }
 
     private fun isPlayerPointMinorThan(playerPoint: Int, point: Int): Boolean {

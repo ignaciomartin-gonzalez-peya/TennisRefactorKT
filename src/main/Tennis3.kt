@@ -16,7 +16,7 @@ class Tennis3(player1Name: String, player2Name : String) : TennisInt {
         } else {
             if (player1Point == player2Point) return "Deuce"
             score = if(player1Point > player2Point) player1Name else player2Name
-            return if((player1Point - player2Point) * (player1Point - player2Point) == 1) "Advantage" + score else "Win for " + score
+            return if((player1Point - player2Point) * (player1Point - player2Point) == 1) "Advantage " + score else "Win for " + score
         }
     }
 

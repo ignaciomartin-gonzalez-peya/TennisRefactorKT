@@ -27,7 +27,7 @@ class Tennis2(player1Name: String, player2Name : String) : TennisInt {
             else if (minusResult >= 2) score = "Win for player1"
             else score = "Win for player2"
         } else {
-            for(i in 1..3){
+            for(i in 1..2){
                 if(i==1) tempScore = player1Point
                 else {
                     score += "-"
